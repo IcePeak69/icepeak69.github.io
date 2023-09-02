@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="blades.gay" property="og:title"/>
+  <meta content="" property="og:description" />
+  <meta content="https://media.discordapp.net/attachments/1120977256068694066/1140142314593996881/xenowo.png" property="og:image" />    
+  <meta content="#df0704" data-react-helmet="true" name="theme-color" />
+  <link rel="icon" type="image/x-icon" href="https://media.discordapp.net/attachments/1120977256068694066/1140142314593996881/xenowo.png">
+  <title>blades.gay</title>
+  <link rel="stylesheet" href="assets/main.css">
+  <style>
+    @font-face {
+      font-family: 'Help Me';
+      src: url('assets/HelpMe.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Cityburn';
+      src: url('assets/cityburn.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'artifact';
+      src: url('assets/artifact.ttf') format('truetype');
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay" id="overlay">
+    <div class="proceed-button" onclick="removeOverlay(); playMusic()">enter</div>
+  </div>
+  <div class="container">
+    <a href="https://blades.gay" target="_blank" style="text-decoration: none; color: #cc0c0c;">
+      <h1>blades.gay</h1>
+    </a>
+    <p>No Comp</p>
+  </div>
+  <div id="clock"></div>
+  <script>
+    function removeOverlay() {
+      var overlay = document.getElementById("overlay");
+      overlay.style.display = "none";
+    }
+  </script>
+  <div class="snowflakes fade-in">
+  <div class="snowflake">†</div>
+  <div class="snowflake">†</div>
+  <div class="snowflake">†</div>
+  <div class="snowflake">†</div>
+  <div class="snowflake">†</div>
+  <div class="snowflake">†</div>
+  <div class="snowflake">†</div>
+  <div class="snowflake">†</div>
+  <div class="snowflake">†</div>
+  <div class="snowflake">†</div>
+  <div class="snowflake">†</div>
+</div>
+
+<script>
+        function playMusic() {
+          var audio = new Audio('assets/audio.mp3');
+          audio.play();
+      }
+</script>
+  <script src="assets/main.js"></script>
+  <script src="assets/geek.js"></script>
+  <script src="assets/funny.js"></script>
+</body>
+</html>
